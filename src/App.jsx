@@ -14,11 +14,14 @@ export default function App() {
 
         {/* Левая панель: Поиск + Новости */}
         <div className="relative z-10 max-w-md space-y-6">
-          <input
+
+{/*         <input
             type="text"
             placeholder="Поиск по сайту и статьям..."
             className="w-full px-5 py-3 rounded-full border border-gray-300 shadow focus:outline-none focus:ring-2 focus:ring-indigo-400"
           />
+*/}
+
           <div className="bg-white/60 backdrop-blur-md rounded-lg p-4 shadow-lg space-y-3">
             <h2 className="text-lg font-semibold text-gray-800">Новости:</h2>
             <ul className="text-sm text-gray-700 list-disc list-inside">
